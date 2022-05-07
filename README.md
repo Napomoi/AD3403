@@ -1,0 +1,2 @@
+[![Napomoi](https://circleci.com/gh/Napomoi/AD3403.svg?style=svg)](https://https://app.circleci.com/pipelines/github/Napomoi/AD3403)
+[![codecov](https://codecov.io/gh/Napomoi/AD3403/branch/master/graph/badge.svg?token=I31VUTSS5F)](https://codecov.io/gh/Napomoi/AD3403)
