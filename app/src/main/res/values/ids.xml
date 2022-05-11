@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="occupation" type="id" />
+    <item name="description" type="id" />
+    <item name="age" type="id" />
+    <item name="name" type="id" />
+    <item name="nameField" type="id" />
+    <item name="emailAddress" type="id" />
+    <item name="usernameField" type="id" />
+    <item name="selectedDateOfBirth" type="id" />
+    <item name="descriptionField" type="id" />
+    <item name="occupationField" type="id" />
+    <item name="drawer_layout" type="id" />
+    <item name="navDrawer" type="id" />
+    <item name="content" type="id" />
+    <item name="profile_menu_item" type="id" />
+    <item name="matches_menu_item" type="id" />
+    <item name="settings_menu_item" type="id" />
+    <item name="userName" type="id" />
+    </resources>
