@@ -5,6 +5,11 @@
       <map>
         <entry key="..\:/Users/napom/AndroidStudioProjects/CircleCISetup3/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/napom/AndroidStudioProjects/CircleCISetup3/app/src/main/res/layout/activity_welcome_screen.xml" value="0.15670289855072464" />
+        <entry key="..\:/Users/napom/AndroidStudioProjects/CircleCISetup3/app/src/main/res/layout/fragment_matches.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/napom/AndroidStudioProjects/CircleCISetup3/app/src/main/res/layout/fragment_profile.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/napom/AndroidStudioProjects/CircleCISetup3/app/src/main/res/layout/toolbar.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/napom/AndroidStudioProjects/CircleCISetup3/app/src/main/res/menu/drawer_view.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/napom/AndroidStudioProjects/CircleCISetup3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
