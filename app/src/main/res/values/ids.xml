@@ -10,4 +10,15 @@
     <item name="selectedDateOfBirth" type="id" />
     <item name="descriptionField" type="id" />
     <item name="occupationField" type="id" />
+    <item name="drawer_layout" type="id" />
+    <item name="navDrawer" type="id" />
+    <item name="content" type="id" />
+    <item name="profile_menu_item" type="id" />
+    <item name="matches_menu_item" type="id" />
+    <item name="settings_menu_item" type="id" />
+    <item name="userName" type="id" />
+    <item name="matches_image" type="id" />
+    <item name="matches_name" type="id" />
+    <item name="matches_description" type="id" />
+    <item name="like_button" type="id" />
 </resources>
