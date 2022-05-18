@@ -15,6 +15,13 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+
 import com.google.android.material.navigation.NavigationView;
 
 public class WelcomeScreen extends AppCompatActivity {
