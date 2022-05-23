@@ -1,5 +1,6 @@
 package com.example.circlecisetup3;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -28,7 +29,6 @@ public class WelcomeScreen extends AppCompatActivity {
 
     private Toolbar toolbar;
     private DrawerLayout drawer;
-    private NavigationView navDrawer;
     private ActionBarDrawerToggle drawerToggle;
 
     @Override
@@ -45,7 +45,7 @@ public class WelcomeScreen extends AppCompatActivity {
         drawer = findViewById(R.id.drawer_layout);
         drawerToggle = setupDrawerToggle();
 
-        navDrawer = findViewById(R.id.navDrawer);
+        NavigationView navDrawer = findViewById(R.id.navDrawer);
 
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
@@ -84,7 +84,7 @@ public class WelcomeScreen extends AppCompatActivity {
     }
 
     @Override
-    public void onConfigurationChanged(Configuration newConfig) {
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         // Pass any configuration change to the drawer toggles
         drawerToggle.onConfigurationChanged(newConfig);
