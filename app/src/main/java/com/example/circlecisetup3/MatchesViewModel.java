@@ -1,7 +1,6 @@
 package com.example.circlecisetup3;
 
 import com.google.firebase.firestore.DocumentSnapshot;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
@@ -23,7 +22,7 @@ public class MatchesViewModel {
                         for (DocumentSnapshot todoSnapshot : querySnapshot.getDocuments()) {
                             Matches item = todoSnapshot.toObject(Matches.class);
                             assert item != null;
-                            item.setUid(todoSnapshot.getId());
+//                            item.setUid(todoSnapshot.getId());
                             todoItems.add(item);
                         }
                         responseCallback.accept(todoItems);

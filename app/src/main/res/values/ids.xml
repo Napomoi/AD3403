@@ -21,4 +21,5 @@
     <item name="matches_name" type="id" />
     <item name="matches_description" type="id" />
     <item name="like_button" type="id" />
+    <item name="settingsTextView" type="id" />
 </resources>

@@ -1,6 +1,5 @@
 package com.example.circlecisetup3;
 
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.ListenerRegistration;
@@ -34,15 +33,15 @@ public class MatchesDataModel {
     }
 
     public void updateMatchById(Matches match) {
-        DocumentReference todoItemRef = db.collection("matches").document(match.getUid());
+//        DocumentReference todoItemRef = db.collection("matches").document(match.getUid());
         Map<String, Object> data = new HashMap<>();
         data.put("imageUrl", match.getImageUrl());
-        data.put("lat", match.getLat());
+//        data.put("lat", match.getLat());
         data.put("liked", match.isLiked());
-        data.put("longitude", match.getLongitude());
+//        data.put("longitude", match.getLongitude());
         data.put("name", match.getName());
-        data.put("uid", match.getUid());
-        todoItemRef.update(data);
+//        data.put("uid", match.getUid());
+//        todoItemRef.update(data);
     }
 
     public void clear() {

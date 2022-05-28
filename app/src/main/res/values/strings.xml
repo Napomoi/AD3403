@@ -48,4 +48,12 @@
 <string name="select_reminder_time_title">Select Reminder Time</string>
 <string name="save">Save</string>
 <string name="invalid_settings">You have inputted invalid settings</string>
+    <string name="Eddie_Cicotte">Eddie Cicotte</string>
+    <string name="What_Eddie_Said">Catchin up pal with Arnold Rothstein</string>
+    <string name="Shoeless_Joe">Shoeless Joe</string>
+    <string name="What_Joe_said">Catching a fly ball</string>
+    <string name="Chick_Gandil">Chick Gandil</string>
+    <string name="What_Chick_said">After the eighth game</string>
+    <string name="Jackson">Jackson</string>
+    <string name="What_Jackson_said">My little chickadees</string>
 </resources>
