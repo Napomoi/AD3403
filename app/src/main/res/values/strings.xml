@@ -56,4 +56,9 @@
     <string name="What_Chick_said">After the eighth game</string>
     <string name="Happy_Felsch">Happy Felsch</string>
     <string name="What_Happy_said">A night out with my little chickadees</string>
-</resources>
+    <string name="enable_location" />
+    <string name="location_message" />
+    <string name="location_settings" />
+    <string name="cancel" />
+    <string name="started_location_updates" />
+    </resources>
